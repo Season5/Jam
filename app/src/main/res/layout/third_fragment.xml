@@ -18,48 +18,35 @@
             android:weightSum="1"
             android:layout_marginBottom="190dp">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView"
-                android:scaleType="centerCrop"
-                android:layout_marginTop="-40dp"
-                android:contentDescription="img"
-                android:src="@drawable/logo"
-                android:background="#9c081b" />
-
-
 
             <android.support.v7.widget.CardView
                 xmlns:cardview="http://schemas.android.com/apk/res-auto"
                 android:layout_width="fill_parent"
-                android:layout_height="240dp"
-                android:layout_marginTop="-40dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
                 android:layout_gravity="center_horizontal"
                 cardview:cardCornerRadius="5dp"
                 cardview:cardElevation="10dp">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="180dp"
                     android:orientation="horizontal"
                     android:padding="8dp">
                     <ImageView
-                        android:layout_width="200dp"
+                        android:layout_width="190dp"
                         android:layout_height="190dp"
                         android:id="@+id/imageView1"
                         android:scaleType="centerCrop"
-
                         android:contentDescription="img"
-                        android:src="@drawable/enjoy1" />
+                        android:src="@drawable/enjoy2" />
                     <ImageView
-                        android:layout_width="200dp"
+                        android:layout_width="190dp"
                         android:layout_height="190dp"
                         android:id="@+id/imageView2"
                         android:scaleType="centerCrop"
-
                         android:contentDescription="img"
-                        android:src="@drawable/enjoy2" />
+                        android:src="@drawable/enjoy1" />
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -69,8 +56,8 @@
             <android.support.v7.widget.CardView
                 xmlns:cardview="http://schemas.android.com/apk/res-auto"
                 android:layout_width="fill_parent"
-                android:layout_height="150dp"
-                android:layout_marginTop="-80dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
                 android:layout_gravity="center_horizontal"
                 cardview:cardCornerRadius="5dp"
                 cardview:cardElevation="10dp">
@@ -81,19 +68,17 @@
                     android:orientation="horizontal"
                     android:padding="8dp">
                     <ImageView
-                        android:layout_width="200dp"
+                        android:layout_width="190dp"
                         android:layout_height="190dp"
                         android:id="@+id/imageView3"
                         android:scaleType="centerCrop"
-
                         android:contentDescription="img"
                         android:src="@drawable/enjoy3" />
                     <ImageView
-                        android:layout_width="200dp"
+                        android:layout_width="190dp"
                         android:layout_height="190dp"
                         android:id="@+id/imageView4"
                         android:scaleType="centerCrop"
-
                         android:contentDescription="img"
                         android:src="@drawable/enjoy4" />
 
@@ -104,8 +89,8 @@
             <android.support.v7.widget.CardView
                 xmlns:cardview="http://schemas.android.com/apk/res-auto"
                 android:layout_width="fill_parent"
-                android:layout_marginTop="20dp"
-                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 cardview:cardCornerRadius="5dp"
                 cardview:cardElevation="10dp">
@@ -117,7 +102,7 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:layout_height="60dp"
                         android:textAppearance="?android:attr/textAppearanceLarge"
 
                         android:id="@+id/Text2"
