@@ -63,15 +63,15 @@ public class MainSoundCloud extends AppCompatActivity {
 
 
         mListItems = new ArrayList<Track>();
-        ListView listView = (ListView)findViewById(R.id.track_list_view);
+        ListView listView = (ListView) findViewById(R.id.track_list_view);
         mAdapter = new SCTrackAdapter(this, mListItems);
         listView.setAdapter(mAdapter);
 
 
-        mSelectedTrackTitle = (TextView)findViewById(R.id.selected_track_title);
-        mSelectedTrackImage = (ImageView)findViewById(R.id.selected_track_image);
+        mSelectedTrackTitle = (TextView) findViewById(R.id.selected_track_title);
+        mSelectedTrackImage = (ImageView) findViewById(R.id.selected_track_image);
         //mPlayerControl = (ImageView)findViewById(R.id.player_control);
-        mPlayerControl = (ImageView)findViewById(R.id.player_control);
+        mPlayerControl = (ImageView) findViewById(R.id.player_control);
         mPlayerControl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -121,6 +121,7 @@ public class MainSoundCloud extends AppCompatActivity {
         mListItems.addAll(tracks);
         mAdapter.notifyDataSetChanged();
     }
+
     private void togglePlayPause() {
 
 
@@ -131,31 +132,5 @@ public class MainSoundCloud extends AppCompatActivity {
             mMediaPlayer.start();
             mPlayerControl.setImageResource(R.drawable.ic_pause);
         }
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-
-        return super.onOptionsItemSelected(item);
     }
 }
