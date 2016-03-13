@@ -10,6 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/cardview-v7-23.2.0-javadoc" />
+            <option value="$PROJECT_DIR$/cardview-v7-23.2.1-javadoc" />
           </set>
         </option>
       </GradleProjectSettings>

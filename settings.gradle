@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':cardview-v7-23.2.1-javadoc', ':cardview-v7-23.2.0-javadoc'
