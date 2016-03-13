@@ -85,7 +85,7 @@ public class MainSoundCloud extends AppCompatActivity {
                 Track track = mListItems.get(position);
 
                 mSelectedTrackTitle.setText(track.getTitle());
-                Picasso.with(Main.this).load(track.getArtworkURL()).into(mSelectedTrackImage);
+                Picasso.with(MainSoundCloud.this).load(track.getArtworkURL()).into(mSelectedTrackImage);
 
                 if (mMediaPlayer.isPlaying()) {
                     mMediaPlayer.stop();
