@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Jam</string>
+    <string name="skip">Skipping</string>
 </resources>
