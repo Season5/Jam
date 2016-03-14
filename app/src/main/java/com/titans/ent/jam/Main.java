@@ -38,7 +38,7 @@ public class Main extends AppCompatActivity {
             @Override
             public void onClick(View arg0)
             {
-                Intent intent = new Intent(context, MainSoundCloud.class);
+                Intent intent = new Intent(context, Tuber.class);
                 startActivity(intent);
 
             }
