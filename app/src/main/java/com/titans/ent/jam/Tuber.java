@@ -22,7 +22,7 @@ public class Tuber extends YouTubeBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.tuber);
 
         youTubePlayerView = (YouTubePlayerView) findViewById(R.id.tuber_view);
 
