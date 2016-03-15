@@ -43,7 +43,7 @@ public class MainAppIntro extends AppIntro {
     }
     private void loadMain(){
         final Context context = this;
-        Intent intent = new Intent(context, Main.class);
+        Intent intent = new Intent(context, MainSoundCloud.class);
         startActivity(intent);
     }
 
